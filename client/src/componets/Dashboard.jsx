@@ -42,7 +42,7 @@ const Dashboard = () => {
             <GrTasks size={30} />
             <h1>Total task</h1>
           </div>
-           <p className='text-2xl '>11</p>
+           <p className='text-2xl '>{totaltasks.length}</p>
        </div>
 
        <div className='flex justify-between border bg-bg rounded w-[250px] items-center p-4'>
@@ -50,7 +50,7 @@ const Dashboard = () => {
             <FaTasks size={30} />
             <h1>Pending tasks</h1>
           </div>
-           <p className='text-2xl '>6</p>
+           <p className='text-2xl '>{pendingTasks}</p>
        </div>
 
        <div className='flex justify-between border bg-bg rounded w-[250px] items-center p-4'>
@@ -58,7 +58,7 @@ const Dashboard = () => {
             <SiGoogletasks size={30} />
             <h1>completed tasks</h1>
           </div>
-           <p className='text-2xl '>5</p>
+           <p className='text-2xl '>{completedTasks}</p>
        </div>
       </div>
 
